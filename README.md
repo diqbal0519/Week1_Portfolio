@@ -17,6 +17,40 @@ python -m http.server 8000
 
 Then visit `http://localhost:8000`.
 
+## Demo GIFs
+
+Screen recordings of the portfolio in action. Add GIF files to the `demos/` folder and they will render below.
+
+### Portfolio — Desktop
+
+![Portfolio desktop demo](demos/portfolio-desktop.gif)
+
+*Full-page walkthrough on desktop: hero, About, Skills, Projects, and Contact.*
+
+### Portfolio — Mobile & Navigation
+
+![Portfolio mobile demo](demos/portfolio-mobile.gif)
+
+*Responsive layout and hamburger menu on smaller screens.*
+
+### View My Work Interaction
+
+![View My Work button demo](demos/view-work-button.gif)
+
+*Smooth scroll to the Projects section with on-screen feedback.*
+
+### WanderHub Travel Forum
+
+![WanderHub demo](demos/wanderhub-demo.gif)
+
+*Travel forum: posts, comments, upvotes, and AI summary feature.*
+
+### TravelExplorer Mobile App
+
+![TravelExplorer demo](demos/travel-explorer-demo.gif)
+
+*SwiftUI app: city search, attraction details, favorites, and journal entries.*
+
 ## Sections
 
 | Section | Description |
@@ -43,10 +77,16 @@ Then visit `http://localhost:8000`.
 
 ```
 Week1_Portfolio/
-├── index.html      # Page content and structure
-├── style.css       # Styling and responsive layout
-├── script.js       # Button interactions and navigation
-├── Headshot.jpg    # About section photo
+├── demos/                  # Demo GIFs for README
+│   ├── portfolio-desktop.gif
+│   ├── portfolio-mobile.gif
+│   ├── view-work-button.gif
+│   ├── wanderhub-demo.gif
+│   └── travel-explorer-demo.gif
+├── index.html              # Page content and structure
+├── style.css               # Styling and responsive layout
+├── script.js               # Button interactions and navigation
+├── Headshot.jpg            # About section photo
 └── README.md
 ```
 

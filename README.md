@@ -19,8 +19,6 @@ Then visit `http://localhost:8000`.
 
 ## Demo GIFs
 
-Screen recordings of the portfolio in action. Add GIF files to the `demos/` folder and they will render below.
-
 ### Portfolio — Desktop
 
 ![Portfolio desktop demo](demos/portfolio-desktop.gif)
@@ -35,7 +33,7 @@ Screen recordings of the portfolio in action. Add GIF files to the `demos/` fold
 
 ### View My Work Interaction
 
-![View My Work button demo](demos/view-work-button.gif)
+![View My Work button demo](view-work-button.gif)
 
 *Smooth scroll to the Projects section with on-screen feedback.*
 

@@ -1,53 +1,54 @@
-# Personal Portfolio Website
+# AI Hootcamp — Week 1 Project: Personal Portfolio
 
-A responsive personal portfolio starter built with HTML, CSS, and JavaScript. Includes an About section, Skills section, Projects section, and Contact form — ready to customize with your own content.
+**Author:** Duha Iqbal  
+**Course:** AI Hootcamp  
+**Project:** Week 1 — Personal Portfolio Website
 
-## Features
+A responsive personal portfolio built with HTML, CSS, and JavaScript as part of AI Hootcamp Project 1. The site showcases my background, skills, projects, and contact information.
 
-- **Responsive layout** — works on mobile, tablet, and desktop
-- **Sticky navigation** — smooth scrolling to each section
-- **Mobile menu** — hamburger toggle with animated open/close
-- **Contact form** — client-side submit feedback (no backend required)
-- **Modern dark theme** — clean typography and card-based sections
+## Live Preview
+
+Open `index.html` in your browser — no build step or dependencies required.
+
+```bash
+# Optional: run a local server
+python -m http.server 8000
+```
+
+Then visit `http://localhost:8000`.
+
+## Sections
+
+| Section | Description |
+|---------|-------------|
+| **Hero** | Introduction with a "View My Work" call-to-action |
+| **About** | Bio and headshot (`Headshot.jpg`) |
+| **Skills** | Frontend, backend, mobile development, tools, and more |
+| **Projects** | Portfolio Website, WanderHub Travel Forum, TravelExplorer Mobile App |
+| **Contact** | Email, phone, location, and a message form |
+
+## Featured Projects
+
+- **Portfolio Website** — This site; built with HTML, CSS, and JavaScript
+- **WanderHub Travel Forum** — Full-stack travel forum with React, Supabase, authentication, Row Level Security, and AI-generated summaries via FAU’s Trussed API
+- **TravelExplorer Mobile App** — SwiftUI travel app with Parse, Geoapify APIs, MapKit, favorites, and travel journal entries
+
+## JavaScript Interactions
+
+- **View My Work button** — Smooth-scrolls to the Projects section with on-screen feedback
+- **Mobile navigation** — Hamburger menu toggle for smaller screens
+- **Contact form** — Displays a confirmation message on submit
 
 ## Project Structure
 
 ```
 Week1_Portfolio/
-├── index.html   # Page structure and content
-├── style.css    # Layout, theme, and responsive styles
-├── script.js    # Navigation toggle and form interaction
+├── index.html      # Page content and structure
+├── style.css       # Styling and responsive layout
+├── script.js       # Button interactions and navigation
+├── Headshot.jpg    # About section photo
 └── README.md
 ```
-
-## Getting Started
-
-No build step or dependencies required.
-
-1. Clone or download this repository
-2. Open `index.html` in your browser
-
-Or use a local server for live reload during development:
-
-```bash
-# Python
-python -m http.server 8000
-
-# Node.js (if you have npx)
-npx serve .
-```
-
-Then visit `http://localhost:8000`.
-
-## Customization
-
-| What to change | Where |
-|----------------|-------|
-| Name, bio, projects | `index.html` |
-| Colors, spacing, layout | `style.css` (`:root` variables at the top) |
-| Button / menu behavior | `script.js` |
-
-Replace placeholder project links (`href="#"`) with your live demos or GitHub repos. Swap the About photo placeholder with a real `<img>` when you have one.
 
 ## Technologies
 
@@ -55,6 +56,7 @@ Replace placeholder project links (`href="#"`) with your live demos or GitHub re
 - CSS3 (Flexbox, Grid, media queries, CSS variables)
 - Vanilla JavaScript
 
-## License
+## Contact
 
-Free to use and modify for your personal portfolio.
+- **Email:** diqbal2023@fau.edu
+- **Location:** Pembroke Pines, FL

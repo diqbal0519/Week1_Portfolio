@@ -21,14 +21,13 @@ Then visit `http://localhost:8000`.
 
 ### Portfolio — Desktop
 
-
+![Portfolio desktop demo](portfolio-desktop.gif)
 
 *Full-page walkthrough on desktop: hero, About, Skills, Projects, and Contact.*
 
 ### Portfolio — Mobile & Navigation
 
-![Portfolio mobile demo]![Portfolio desktop demo](
-)
+![Portfolio mobile demo](portfolio-mobile.gif)
 
 *Responsive layout and hamburger menu on smaller screens.*
 

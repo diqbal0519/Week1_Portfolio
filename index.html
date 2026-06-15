@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio website">
+  <title>Duha Iqbal | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#" class="nav__logo">Duha Iqbal</a>
+
+      <button
+        class="nav__toggle"
+        id="navToggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="navMenu"
+        aria-label="Toggle navigation menu"
+      >
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__content">
+        <p class="hero__eyebrow">Hello, I'm</p>
+        <h1 class="hero__title">Duha Iqbal</h1>
+        <p class="hero__subtitle">Aspiring Web Developer building clean, responsive experiences.</p>
+        <a href="#projects" class="btn btn--primary" id="viewWorkBtn">View My Work</a>
+        <p class="hero__note" id="workStatus" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section__title">About</h2>
+        <div class="about">
+          <div class="about__image" aria-hidden="true">
+            <span class="about__placeholder">Photo</span>
+          </div>
+          <div class="about__text">
+            <p>
+              I'm a passionate learner focused on front-end development, user experience,
+              and turning ideas into accessible websites. I enjoy solving problems with
+              HTML, CSS, and JavaScript.
+            </p>
+            <p>
+              When I'm not coding, you can find me exploring new tools, contributing to
+              projects, and sharpening my craft one build at a time.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills">
+          <li class="skill-card">
+            <h3 class="skill-card__title">HTML &amp; CSS</h3>
+            <p class="skill-card__text">Semantic markup, responsive layouts, and modern styling.</p>
+          </li>
+          <li class="skill-card">
+            <h3 class="skill-card__title">JavaScript</h3>
+            <p class="skill-card__text">DOM manipulation, interactivity, and clean client-side logic.</p>
+          </li>
+          <li class="skill-card">
+            <h3 class="skill-card__title">Git &amp; GitHub</h3>
+            <p class="skill-card__text">Version control, collaboration, and project workflow.</p>
+          </li>
+          <li class="skill-card">
+            <h3 class="skill-card__title">UI Design</h3>
+            <p class="skill-card__text">Layout, typography, and user-centered design basics.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section__title">Projects</h2>
+        <div class="projects">
+          <article class="project-card">
+            <h3 class="project-card__title">Portfolio Website</h3>
+            <p class="project-card__text">
+              A responsive personal site built with HTML, CSS, and JavaScript.
+            </p>
+            <a href="#" class="project-card__link">View Project</a>
+          </article>
+          <article class="project-card">
+            <h3 class="project-card__title">Landing Page</h3>
+            <p class="project-card__text">
+              A mobile-first landing page with flexible grid layout and clean typography.
+            </p>
+            <a href="#" class="project-card__link">View Project</a>
+          </article>
+          <article class="project-card">
+            <h3 class="project-card__title">Interactive App</h3>
+            <p class="project-card__text">
+              A small JavaScript app demonstrating DOM events and dynamic content.
+            </p>
+            <a href="#" class="project-card__link">View Project</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="contact">
+      <div class="container">
+        <h2 class="section__title">Contact</h2>
+        <div class="contact">
+          <p class="contact__intro">
+            Interested in working together? Send a message or connect with me online.
+          </p>
+          <div class="contact__details">
+            <p><strong>Email:</strong> <a href="mailto:hello@yourname.com">hello@yourname.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+1234567890">(123) 456-7890</a></p>
+            <p><strong>Location:</strong> Your City, Country</p>
+          </div>
+          <form class="contact__form" id="contactForm">
+            <label class="form-field" for="name">Name</label>
+            <input class="form-input" type="text" id="name" name="name" required>
+
+            <label class="form-field" for="email">Email</label>
+            <input class="form-input" type="email" id="email" name="email" required>
+
+            <label class="form-field" for="message">Message</label>
+            <textarea class="form-input form-input--textarea" id="message" name="message" rows="5" required></textarea>
+
+            <button class="btn btn--primary" type="submit" id="contactBtn">Send Message</button>
+            <p class="contact__status" id="contactStatus" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
